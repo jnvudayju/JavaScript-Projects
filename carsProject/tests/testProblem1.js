@@ -1,6 +1,6 @@
 const data = require("../message");
 const myFunc = require("../Problem1");
-const result = myFunc(data, 35);
+const result = myFunc(data, 39);
 console.log("Result is", result);
 
 // ==== Problem #1 ====
