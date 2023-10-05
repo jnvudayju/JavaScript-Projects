@@ -16,14 +16,14 @@ function splitIP(data) {
     }
   }
 
-  let result = [];
+  let ans = [];
 
   for (let i = 0; i < data.length; i += 4) {
     let temp = data.slice(i, i + 3);
-    result.push(temp);
+    ans.push(temp);
   }
 
-  return result;
+  return ans;
 }
 
 module.exports = splitIP;
